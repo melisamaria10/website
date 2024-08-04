@@ -1,0 +1,67 @@
+/* phone.css */
+
+/* Header Adjustments */
+header h1 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header img#tractari {
+    display: none;
+}
+
+/* Navigation Menu */
+nav ul.meniu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul.meniu li {
+    margin: 5px 0;
+}
+
+nav{
+    position:relative;
+}
+
+/* Container Adjustments */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .left-content, .container .card {
+    width: 90%;
+    margin: 5px 0;
+}
+
+/* Gallery Adjustments */
+#static {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#static > figure {
+   position: relative;
+    margin: 5px 0;
+}
+
+/* Footer Adjustments */
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-div {
+    margin: 5px 0;
+}
+
+.footer-div a img {
+    width: 150px;
+    height: 150px;
+}

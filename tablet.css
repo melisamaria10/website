@@ -1,0 +1,54 @@
+/* tablet.css */
+
+/* Header Adjustments */
+header h1 {
+    font-size: 1.5em;
+}
+
+/* Navigation Menu */
+nav ul.meniu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul.meniu li {
+    margin: 10px 0;
+}
+
+nav {
+    position: relative;
+}
+
+/* Container Adjustments */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .left-content, .container .card {
+    width: 80%;
+    margin: 10px 0;
+}
+
+/* Gallery Adjustments */
+#static {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#static > figure {
+    width: 90%;
+    align-self: auto;
+}
+
+/* Footer Adjustments */
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-div {
+    margin: 10px 0;
+}
