@@ -30,7 +30,7 @@ nav {
     background-color: lightblue; /* Fundal pentru navbar */
     height: auto; /* Permite navbar-ului să se adapteze la conținut */
     line-height: normal;
-    position: fixed; /* Fixează navbar-ul în partea de sus */
+    position: relative; /* Fixează navbar-ul în partea de sus */
     top: 0;
     width: 100%; /* Asigură că navbar-ul acoperă întreaga lățime */
     z-index: 1000; /* Asigură că navbar-ul este deasupra altor elemente */
