@@ -42,4 +42,5 @@ background-color: lightblue;
 position:sticky;
 top:0;
 line-height:3.5rem;
+z-index: 1000;
 }
