@@ -5,7 +5,7 @@ header {
     display: block;
     text-align: center;
     padding: 1px 0;
-    margin-bottom: 80px; /* Asigură spațiu pentru navbar pe telefoane */
+    margin-bottom: 80px; 
 }
 
 header h1 {
@@ -16,8 +16,8 @@ header h1 {
 
 /* Adjustments for 'Despre' section */
 #despre {
-    padding-top: 80px; /* Asigură că textul nu este ascuns sub navbar */
-    background-color: transparent; /* Elimină orice fundal colorat */
+    padding-top: 80px; 
+    background-color: transparent; 
 }
 
 #despre h2, #despre svg text {
@@ -27,13 +27,12 @@ header h1 {
 
 /* Navigation Menu Adjustments */
 nav {
-    background-color: lightblue; /* Fundal pentru navbar */
-    height: auto; /* Permite navbar-ului să se adapteze la conținut */
+    height: auto; 
     line-height: normal;
-    position: relative; /* Fixează navbar-ul în partea de sus */
+    position: relative; 
     top: 0;
-    width: 100%; /* Asigură că navbar-ul acoperă întreaga lățime */
-    z-index: 1000; /* Asigură că navbar-ul este deasupra altor elemente */
+    width: 100%;
+    z-index: 1000; 
 }
 
 nav ul.meniu {
@@ -42,23 +41,22 @@ nav ul.meniu {
     align-items: center;
     padding: 0;
     margin: 0;
-    list-style-type: none; /* Elimină punctele din listă */
 }
 
 nav ul.meniu li {
-    margin: 5px 0; /* Spațiu între elementele listei */
+    margin: 5px 0;
 }
 
 nav ul li a {
-    padding: 10px 20px; /* Adaugă padding pentru linkuri */
-    font-size: 1.2rem; /* Dimensiune font mai mare pentru vizibilitate */
-    color: black; /* Culoare text pentru linkuri */
-    text-decoration: none; /* Elimină sublinierea */
-    display: block; /* Face linkul un element de bloc pentru a include paddingul */
+    padding: 10px 20px; 
+    font-size: 1.1rem;
+    color: black; 
+    text-decoration: none; 
+    display: block; 
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Efect de hover pentru linkuri */
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
 /* Container Adjustments */
@@ -67,25 +65,25 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 10px; /* Asigură un padding uniform */
+    padding: 10px; 
 }
 
 .container .left-content, .container .card {
-    width: 90%; /* Ajustează lățimea pentru mobil */
-    margin: 10px 0; /* Spațiu între elemente */
+    width: 90%; 
+    margin: 10px 0; 
 }
 
 /* Gallery Adjustments */
 #static {
     display: grid;
-    grid-template-columns: 1fr; /* O singură coloană pentru mobil */
+    grid-template-columns: 1fr; 
     justify-items: center;
     gap: 10px;
     padding: 10px;
 }
 
 #static > figure {
-    margin: 5px 0; /* Spațiu între imagini */
+    margin: 5px 0; 
 }
 
 /* Footer Adjustments */
@@ -94,14 +92,14 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #3E77B6; /* Fundal pentru footer */
+    background-color: #3E77B6; 
 }
 
 .footer-div {
-    margin: 10px 0; /* Spațiu între elementele din footer */
+    margin: 10px 0; 
 }
 
 .footer-div a img {
-    width: 120px; /* Dimensiunea logo-ului */
-    height: auto; /* Păstrează proporțiile corecte ale imaginii */
+    width: 120px; 
+    height: auto; 
 }
