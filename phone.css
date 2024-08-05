@@ -34,6 +34,8 @@ nav ul.meniu li {
 
 nav{
     position:relative;
+    height: auto;
+    line-height: normal;
 }
 
 /* Container Adjustments */
