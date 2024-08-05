@@ -38,6 +38,20 @@ nav{
     line-height: normal;
 }
 
+nav {
+  height: 4rem; 
+  line-height: 4rem; 
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  padding: 0 10px; 
+  font-size: 1.1rem; 
+}
+
 /* Container Adjustments */
 .container {
     display: flex;
