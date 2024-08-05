@@ -16,6 +16,10 @@ header{
     padding: 1px 0;
     margin-bottom: 70px;
 }
+
+#despre {
+    padding-top:10px;
+}
     
 /* Navigation Menu */
 nav ul.meniu {
