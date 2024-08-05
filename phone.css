@@ -1,56 +1,66 @@
 /* phone.css */
 
 /* Header Adjustments */
+header {
+    display: block;
+    text-align: center;
+    padding: 1px 0;
+    margin-bottom: 80px; /* Asigură spațiu pentru navbar pe telefoane */
+}
+
 header h1 {
     font-size: 1.2em;
     text-align: center;
 }
 
 header img#tractari {
-    display: none;
+    display: none; /* Ascunde imaginea pe telefoane */
 }
 
-header{
-    display: block;
-    text-align: center;
-    padding: 1px 0;
-    margin-bottom: 70px;
-}
-
+/* Adjustments for 'Despre' section */
 #despre {
-    padding-top:10px;
+    padding-top: 80px; /* Asigură că textul nu este ascuns sub navbar */
+    background-color: transparent; /* Elimină orice fundal colorat */
 }
 
-#despre .patterns {
-    background-color: transparent; 
+#despre h2, #despre svg text {
+    color: white; /* Setează culoarea textului pentru vizibilitate pe fundal întunecat */
 }
-    
-/* Navigation Menu */
+
+/* Navigation Menu Adjustments */
 nav {
-    position: relative;
-    height: auto; 
+    background-color: lightblue; /* Fundal pentru navbar */
+    height: auto; /* Permite navbar-ului să se adapteze la conținut */
     line-height: normal;
-    background-color: lightblue; 
+    position: fixed; /* Fixează navbar-ul în partea de sus */
+    top: 0;
+    width: 100%; /* Asigură că navbar-ul acoperă întreaga lățime */
+    z-index: 1000; /* Asigură că navbar-ul este deasupra altor elemente */
 }
 
 nav ul.meniu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0; 
-    margin: 0; 
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Elimină punctele din listă */
 }
 
 nav ul.meniu li {
-    margin: 5px 0; 
+    margin: 5px 0; /* Spațiu între elementele listei */
 }
 
 nav ul li a {
-    padding: 10px 20px; 
-    font-size: 1.2rem; 
-    color: black;
-    text-decoration: none; 
-    display: block; 
+    padding: 10px 20px; /* Adaugă padding pentru linkuri */
+    font-size: 1.2rem; /* Dimensiune font mai mare pentru vizibilitate */
+    color: black; /* Culoare text pentru linkuri */
+    text-decoration: none; /* Elimină sublinierea */
+    display: block; /* Face linkul un element de bloc pentru a include paddingul */
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Efect de hover pentru linkuri */
 }
 
 /* Container Adjustments */
@@ -58,38 +68,42 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 10px; /* Asigură un padding uniform */
 }
 
 .container .left-content, .container .card {
-    width: 90%;
-    margin: 5px 0;
+    width: 90%; /* Ajustează lățimea pentru mobil */
+    margin: 10px 0; /* Spațiu între elemente */
 }
 
 /* Gallery Adjustments */
 #static {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* O singură coloană pentru mobil */
     justify-items: center;
     gap: 10px;
     padding: 10px;
 }
 
 #static > figure {
-   position: relative;
-    margin: 5px 0;
+    margin: 5px 0; /* Spațiu între imagini */
 }
 
 /* Footer Adjustments */
 .footer-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    background-color: #3E77B6; /* Fundal pentru footer */
 }
 
 .footer-div {
-    margin: 5px 0;
+    margin: 10px 0; /* Spațiu între elementele din footer */
 }
 
 .footer-div a img {
-    width: 150px;
-    height: 150px;
+    width: 120px; /* Dimensiunea logo-ului */
+    height: auto; /* Păstrează proporțiile corecte ale imaginii */
 }
