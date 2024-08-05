@@ -13,9 +13,6 @@ header h1 {
     text-align: center;
 }
 
-header img#tractari {
-    display: none; /* Ascunde imaginea pe telefoane */
-}
 
 /* Adjustments for 'Despre' section */
 #despre {
@@ -24,7 +21,8 @@ header img#tractari {
 }
 
 #despre h2, #despre svg text {
-    color: white; /* Setează culoarea textului pentru vizibilitate pe fundal întunecat */
+    color: white; 
+    background-color: transparent;
 }
 
 /* Navigation Menu Adjustments */
