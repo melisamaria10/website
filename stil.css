@@ -5,7 +5,7 @@ header{
 }
 
 #titlu{
-	font-family: "Apple Chancery", cursive;
+	font-family: "Apple Chancery", sans-serif;
 	font-weight: 700;
 	text-align: center;
 }
@@ -127,13 +127,13 @@ main > section > h3{
 .left-content ol li{
   color: white;
   font-size: 18px;
-  font-family: "Apple Chancery", cursive;
+  font-family: "Apple Chancery", sans-serif;
 }
 
 .left-content > h2{
   color: white;
   font-size: 22px;
-  font-family: "Apple Chancery", cursive;
+  font-family: "Apple Chancery", sans-serif;
 }
 
 
