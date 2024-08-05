@@ -20,6 +20,10 @@ header{
 #despre {
     padding-top:10px;
 }
+
+#despre .patterns {
+    background-color: transparent; 
+}
     
 /* Navigation Menu */
 nav {
