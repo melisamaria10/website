@@ -17,7 +17,7 @@ header{
   vertical-align: bottom;
  }
 
-body{
+body, main, section{
 margin: 0;
 padding: 0;
 }
