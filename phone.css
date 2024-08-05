@@ -10,6 +10,13 @@ header img#tractari {
     display: none;
 }
 
+header{
+    display: block;
+    text-align: center;
+    padding: 1px 0;
+    margin-bottom: 20px;
+}
+    
 /* Navigation Menu */
 nav ul.meniu {
     display: flex;
