@@ -15,11 +15,15 @@ header h1 {
 
 /* Adjustments for 'Despre' section */
 #despre {
-    padding-top: 80px; 
+    padding-top: 10px; 
     background-color: transparent; 
 }
 
-#despre h2, #despre svg text {
+#despre svg text {
+    display: none;
+}
+
+#despre h2 {
     color: white; 
     background-color: transparent;
 }
