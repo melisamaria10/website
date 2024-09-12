@@ -140,38 +140,18 @@ main > section > h3{
   font-family: "Apple Chancery";
 }
 
-
-.patterns{
-  height: 100px;
+.outlined-text{
+font-size: 60px;
+font-weight: bold;
+color: rgba(255, 255, 255, 0.6);
+font-family: "Times New Roman", serif;
+text-shadow:
+-1px -1px 0 #00bfff,
+1px -1px 0 #00bfff,
+-1px 1px 0 #00bfff,
+1px 1px 0 #00bfff,
+0px 0px 5px rgba(0, 191, 255, 0.5);
 }
-  
-  svg text {
-    font-family: Lora;
-    letter-spacing: 10px;
-    stroke: #1da6e2;
-    font-size: 90px;
-    font-weight: 700;
-    stroke-width: 2.5;
-   
-    animation: textAnimate 5s infinite alternate;
-    
-  }
-  
-  @keyframes textAnimate {
-    0% {
-      stroke-dasharray: 0 50%;
-      stroke-dashoffset:  20%;
-      fill:hsl(189, 68%, 75%)
-  
-    }
-    
-    100% {
-      stroke-dasharray: 50% 0;
-      stroke-dashoffstet: -20%;
-      fill: hsla(189, 68%, 75%,0%)
-    }
-    
-  }
 
   /* Sectiunea galerie */
   #galerie{
